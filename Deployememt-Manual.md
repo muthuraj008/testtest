@@ -2,7 +2,8 @@ Manually Way of deployment.
 
 Steps:
 1. Create a virtual Machine(Any cloud Platform)
-2. Install IIS using below command
+![image](https://raw.githubusercontent.com/muthuraj008/testtest/master/Images/testest.png)
+3. Install IIS using below command
 	a. Install-WindowsFeature -name Web-Server -IncludeManagementTools
 	b. Install-WindowsFeature -Name Web-Mgmt-Service
 3. Need to install Hosting Bundle for respective Target framework version(.NET 6.0). Use below link.
